@@ -123,7 +123,7 @@ print("Outside if block")         # Not indented, outside the if-block
 </br>
 
 ---
-## Where python can be used ?
+# Where python can be used ?
 - Developing websites
 - Task automation
 - Data visualization
@@ -134,3 +134,26 @@ print("Outside if block")         # Not indented, outside the if-block
 <br>
 
 </br>
+
+---
+# How to develop a software using python ?
+`source file` → `hidden compiler turn into bytecode (.py file to .pyc)` → `Interpreter means PVM(Python Virtual Machine) which reads bytecode line by line` → `CPU run machine level code and perform the final action - output on screen.`
+<br>
+
+</br>
+
+---
+# How to run a py file or script ?
+
+1. `Run from Terminal/Command Prompt/VSCode` - you use the python command followed by the script's filename to run it. 
+```
+python filename.py
+```
+
+2. `Run from Python Interactive Mode` - only for testing purpose, not for py files.
+```
+python
+>>> print("hello Gagan")     # here >>> means python interpreter is ready to in use.
+```
+
+3. `Run from Jupyter Notebook (.ipynb)` - Use run button on top right or for mac press shift+command.
